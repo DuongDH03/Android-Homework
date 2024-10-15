@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+    <string name="operation_text">%1$d %2$s</string>
+    <string name="operation_text_full">%1$d %2$s %3$d</string>
+</resources>
