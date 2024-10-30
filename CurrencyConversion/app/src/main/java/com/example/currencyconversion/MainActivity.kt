@@ -29,8 +29,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main)
-
         originalAmountEditText = findViewById(R.id.original_amount)
         convertedAmountEditText = findViewById(R.id.converted_amount)
         originalCurrencySpinner = findViewById(R.id.original_currency)
