@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/studentListFragment">
+
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="vn.edu.hust.studentman.StudentListFragment"
+        android:label="Student List">
+        <action
+            android:id="@+id/action_studentListFragment_to_addEditStudentFragment"
+            app:destination="@id/addEditStudentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEditStudentFragment"
+        android:name="vn.edu.hust.studentman.AddEditStudentFragment"
+        android:label="Add/Edit Student">
+        <argument
+            android:name="studentName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue=""/>
+        <argument
+            android:name="studentId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue=""/>
+    </fragment>
+
+</navigation>

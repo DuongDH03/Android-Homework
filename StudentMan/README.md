@@ -27,3 +27,23 @@
 
 ## Remove
 ![alt text](image-9.png)
+
+---
+# WORKING WITH FRAGMENT
+## Student List
+![alt text](image-10.png)
+
+## Add new
+![alt text](image-11.png)
+
+## Edit, Remove 
+![alt text](image-12.png)
+
+## Add new Student
+![alt text](image-13.png)
+
+## Edit Student
+![alt text](image-14.png)
+
+## Delete Student
+![alt text](image-15.png)
